@@ -1,0 +1,84 @@
+.parallax {
+  min-height: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100%;
+}
+
+.parallax-img {
+  background-image: url(https://shorturl.at/UcUXB);
+}
+
+/* gallery parallax */
+#section1 {
+  background: url(./media/angkasa.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh; /* 100% of viewport height */
+  margin: 0 auto;
+  position: relative;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  font-weight: bold;
+  font-size: 50px;
+}
+#section2 {
+  background: url(./media/sky.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh; /* 100% of viewport height */
+  margin: 0 auto;
+  position: relative;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  font-weight: bold;
+  font-size: 50px;
+}
+#section3 {
+  background: url(./media/arctic.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh; /* 100% of viewport height */
+  margin: 0 auto;
+  position: relative;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+#section4 {
+  background: url(./media/deep.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh; /* 100% of viewport height */
+  margin: 0 auto;
+  position: relative;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+/* end of gallery parallax */

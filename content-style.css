@@ -1,0 +1,25 @@
+.img-wrap{
+    height: 150px;
+    width: 150px;
+}
+
+.img-wrap > img {
+    width: 100%;
+}
+
+/* 2nd choice */
+.pepe{
+    height:150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 75px;
+}
+
+/* 3rd choice */
+.pepe-div{
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
